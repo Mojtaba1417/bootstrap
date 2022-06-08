@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap_project",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mojtaba1417/bootsrap.git"
+  },
+  "author": "MOojtaba Ghahri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mojtaba1417/bootsrap/issues"
+  },
+  "homepage": "https://github.com/Mojtaba1417/bootsrap#readme",
+  "dependencies": {
+    "bootstrap": "4.6",
+    "live-server": "^1.2.2"
+  }
+}
