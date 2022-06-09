@@ -1,0 +1,86 @@
+@media  (min-width: 1200px){
+    /*slogan*/
+    section.slogan{
+        width:100% ;
+        height: 100vh;
+        background: url("../images/dist/Group 81.png") no-repeat;
+        background-size: cover;
+    }
+    section.slogan a{
+        font-size: 14px;
+        transition: all 300ms linear;
+    }
+    section.slogan a:hover{
+        border-bottom:2px solid white;
+    }
+/*    end slogan*/
+}
+@media  (min-width: 990px) and (max-width: 1200px){
+    /*slogan*/
+    section.slogan{
+        width:100% ;
+        height: 100vh;
+        background: url("../images/dist/Group 81.png") no-repeat;
+        background-size: cover;
+    }
+    section.slogan a{
+        font-size: 13px;
+        transition: all 300ms linear;
+    }
+    section.slogan a:hover{
+        border-bottom:2px solid white;
+    }
+    /*    end slogan*/
+
+}
+@media (min-width: 768px) and (max-width: 990px){
+    /*slogan*/
+    section.slogan{
+        width:100% ;
+        height: 100vh;
+        background: url("../images/dist/Group 81.png") no-repeat;
+        background-size: cover;
+    }
+    section.slogan a{
+        transition: all 300ms linear;
+        font-size: 12px;
+    }
+    section.slogan a:hover{
+        border-bottom:2px solid white;
+    }
+    /*    end slogan*/
+}
+@media (min-width: 540px) and (max-width: 768px){
+    /*slogan*/
+    section.slogan{
+        width:100%;
+        height: 100vh;
+        background: url("../images/dist/Group 81.png") no-repeat;
+        background-size: cover;
+    }
+    section.slogan a{
+        transition: all 300ms linear;
+        font-size: 10px;
+    }
+    section.slogan a:hover{
+        border-bottom:2px solid white;
+    }
+    /*    end slogan*/
+}
+@media (max-width: 540px){
+    /*slogan*/
+    section.slogan{
+        width:100% ;
+        height: 100vh;
+        background: url("../images/dist/Group 81.png") no-repeat;
+        background-size: cover;
+    }
+    section.slogan a{
+        transition: all 300ms linear;
+        font-size: 12px;
+    }
+    section.slogan a:hover{
+        background-image: linear-gradient(to right top, rgba(251, 175, 123, 1), rgba(252, 181, 118, 0.77), rgba(252, 188, 114, 0.8), rgba(250, 195, 110, 0.77), rgba(247, 202, 107, 0.4));
+    }
+    /*    end slogan*/
+}
