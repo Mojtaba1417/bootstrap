@@ -1,9 +1,14 @@
+body{
+    background-image: linear-gradient(to right top, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), #f7fcff, #f2faff) ;
+    z-index: 10;
+}
 @media  (min-width: 1200px){
     /*slogan*/
     section.slogan{
+
         width:100% ;
-        height: 100vh;
-        background: url("../images/dist/Group 81.png") no-repeat;
+        height: 1370px;
+        background: url("../images/dist/Group 81.png") no-repeat 0 -90px;
         background-size: cover;
     }
     section.slogan a{
@@ -13,13 +18,39 @@
     section.slogan a:hover{
         border-bottom:2px solid white;
     }
+    div.img>img{
+        width: 100%;
+    }
+    .btn-outline:hover{
+        background-image: linear-gradient(to right top, rgb(255, 171, 116), rgb(252, 180, 118), rgb(252, 188, 114), rgb(250, 194, 110), rgb(247, 203, 107));
+    }
+    section.services{
+        position: absolute !important;
+        top: 1100px;
+    }
+    section.services>div.services{
+        width:100% ;
+        height: 100vh;
+        margin-top: 20px;
+        background: url("../images/dist/Rectangle\ 10.png") no-repeat;
+        background: url("../images/dist/Layer\ 40\ copy\ 2.png") no-repeat top left ,url("../images/dist/Layer\ 40\ copy.png") no-repeat bottom right;
+    }
+    section.services>div.services>div{
+        width:100% ;
+        height: 95%;
+        background-color: white;
+        position: absolute;
+        top: 5%;
+        border-radius: 15% 0 15% 0;
+        
+    }
 /*    end slogan*/
 }
 @media  (min-width: 990px) and (max-width: 1200px){
     /*slogan*/
     section.slogan{
         width:100% ;
-        height: 100vh;
+        height: 1370px;
         background: url("../images/dist/Group 81.png") no-repeat;
         background-size: cover;
     }
@@ -30,14 +61,19 @@
     section.slogan a:hover{
         border-bottom:2px solid white;
     }
+    div.img>img{
+        width: 100%;
+    }
     /*    end slogan*/
-
+    section.services{
+        position: absolute !important;
+        top: 1100px;
+    }
 }
 @media (min-width: 768px) and (max-width: 990px){
     /*slogan*/
     section.slogan{
         width:100% ;
-        height: 100vh;
         background: url("../images/dist/Group 81.png") no-repeat;
         background-size: cover;
     }
@@ -48,13 +84,19 @@
     section.slogan a:hover{
         border-bottom:2px solid white;
     }
+    div.img>img{
+        width: 100%;
+    }
     /*    end slogan*/
+    section.services{
+        position: absolute !important;
+        top: 1100px;
+    }
 }
 @media (min-width: 540px) and (max-width: 768px){
     /*slogan*/
     section.slogan{
         width:100%;
-        height: 100vh;
         background: url("../images/dist/Group 81.png") no-repeat;
         background-size: cover;
     }
@@ -65,13 +107,21 @@
     section.slogan a:hover{
         border-bottom:2px solid white;
     }
+    div.img>img{
+        width: 100%;
+        
+    }
     /*    end slogan*/
+    section.services{
+        position: absolute !important;
+        top: 1100px;
+    }
 }
 @media (max-width: 540px){
     /*slogan*/
     section.slogan{
         width:100% ;
-        height: 100vh;
+        /* height: 1370px; */
         background: url("../images/dist/Group 81.png") no-repeat;
         background-size: cover;
     }
@@ -82,5 +132,12 @@
     section.slogan a:hover{
         background-image: linear-gradient(to right top, rgba(251, 175, 123, 1), rgba(252, 181, 118, 0.77), rgba(252, 188, 114, 0.8), rgba(250, 195, 110, 0.77), rgba(247, 202, 107, 0.4));
     }
+    div.img>img{
+        width: 100%;
+    }
     /*    end slogan*/
+    section.services{
+        position: absolute !important;
+        top: 1100px;
+    }
 }
