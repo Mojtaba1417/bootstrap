@@ -1,7 +1,5 @@
-body{
-    background-image: linear-gradient(to right top, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), #f7fcff, #f2faff) ;
-    z-index: 10;
-}
+
+body { background:linear-gradient(to right, #ffffff, #fdfdff, #f9fbff,#f5faff,#f0f9ff) !important;}
 @media  (min-width: 1200px){
     /*slogan*/
     section.slogan{
@@ -14,6 +12,11 @@ body{
     section.slogan a{
         font-size: 14px;
         transition: all 300ms linear;
+        font-family: sans-serif;
+    }
+    section.slogan h1{
+        font-family: "Proxima Nova", Verdana, "Avenir Next";
+        font-weight: bold;
     }
     section.slogan a:hover{
         border-bottom:2px solid white;
@@ -24,27 +27,76 @@ body{
     .btn-outline:hover{
         background-image: linear-gradient(to right top, rgb(255, 171, 116), rgb(252, 180, 118), rgb(252, 188, 114), rgb(250, 194, 110), rgb(247, 203, 107));
     }
+    /*    end slogan*/
+    /*Servieses*/
     section.services{
         position: absolute !important;
         top: 1100px;
     }
     section.services>div.services{
         width:100% ;
-        height: 100vh;
+        height: 695px;
         margin-top: 20px;
-        background: url("../images/dist/Rectangle\ 10.png") no-repeat;
-        background: url("../images/dist/Layer\ 40\ copy\ 2.png") no-repeat top left ,url("../images/dist/Layer\ 40\ copy.png") no-repeat bottom right;
+        background: url("../images/dist/Layer40copy2.png") no-repeat top left ,url("../images/dist/Layer40copy.png") no-repeat bottom right,url("../images/dist/Rectangle10.png") no-repeat;
+        padding: 2px;
     }
-    section.services>div.services>div{
+    section.services>div.services>div.container-fluid{
         width:100% ;
         height: 95%;
         background-color: white;
         position: absolute;
-        top: 5%;
-        border-radius: 15% 0 15% 0;
-        
+        top:30px;
+        border-radius: 25% 0 25% 0;
+        box-sizing: border-box;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        box-sizing: border-box;
     }
-/*    end slogan*/
+    section.services>div.services>div.container-fluid>div.item{
+        width: 100%;
+        height: 40%;
+        border-radius: 10% 0 10% 0 ;
+        transition: all 300ms linear;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    section.services>div.services>div.container-fluid>div.item>div.head>div.img{
+        width:55px;
+        height: 64px;
+        border-radius:30% 0 30% 0;
+    }
+    section.services>div.services>div.container-fluid>div.item:nth-of-type(1)>div.head>div.img{
+        background-color:#fff0dd ;
+    }
+    section.services>div.services>div.container-fluid>div.item:nth-of-type(2)>div.head>div.img{
+        background-color:#f5effe ;
+    }
+    section.services>div.services>div.container-fluid>div.item:nth-of-type(3)>div.head>div.img{
+        background-color:#edf9fd ;
+    }
+    section.services>div.services>div.container-fluid>div.item:nth-of-type(4)>div.head>div.img{
+        background-color:#fde8ea ;
+    }
+    section.services>div.services>div.container-fluid>div.item:nth-of-type(5)>div.head>div.img{
+        background-color:#e2fcf1 ;
+    }
+    section.services>div.services>div.container-fluid>div.item:nth-of-type(6)>div.head>div.img{
+        background-color:#fefcdb ;
+    }
+    section.services>div.services>div.container-fluid>div.item:hover{
+        box-shadow:5px 5px 25px gray;
+    }
+    /*end Servieses*/
+    /* make pages*/
+    section.pages{
+        width:100% ;
+        height: 2245px;
+        background: url("../images/dist/Group 78.png") no-repeat 0 -90px;
+        background-size: cover;
+        margin-top: 2px;
+    }
+    /*end make pages*/
+
 }
 @media  (min-width: 990px) and (max-width: 1200px){
     /*slogan*/
