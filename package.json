@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Mojtaba1417/bootsrap#readme",
   "dependencies": {
     "bootstrap": "4.6",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.2",
+    "swiper": "^8.2.4"
   }
 }
